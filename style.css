@@ -1,16 +1,17 @@
 body {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7
+    background: #ffffff
 }
 
 h1 {
     background: #333;
-    padding: 20px 0;
-    margin: 0;
+    padding: 20px;
     margin-bottom: 20px;
     font-size: 28px;
     color: #efeee7;
@@ -21,24 +22,81 @@ h2 {
     font-size: 24px;
 }
 
-.container {
-    width: 1040px;
+#container {
+    display: block;
+    margin-bottom: 20px;
 }
 
-.container,
-.contact {
-    margin: 20px;
+#red-fox-bio {
+    width: 80%;
+}
+
+#where {
+    position: static;
+    padding: 20px;
+}
+
+#den{
+    position: static;
+    padding: 20px;  
+}
+
+#look {
+    position: static;
+    padding: 20px;
+}
+
+#personality {
+    position: static;
+    padding: 20px;
+}
+
+#life {
+    position: static;
+    padding: 20px;
+}
+
+#main-photo {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#distribution-map-photo {
+    width: 600px;
+    display: block;
+    position: static;
     float: left;
 }
 
-#photo {
-    width: 200px;
-    height: 200px;
+#fox-in-den-photo {
+    width: 300px;
+    display: block;
+    position: static;
+    float: left;
 }
 
-#bio {
-    width: 820px;
-    float: right;
+#den-photo {
+    width: 600px;
+    display: block;
+    position: static;
+    float: left;
+}
+
+#kit-photo1 {
+    width: 300px;
+    display: block;
+    position: static;
+    float: left;
+}
+
+#kit-photo2 {
+    width: 300px;
+    display: block;
+    position: static;
+    float: left;
+    margin-bottom: 30px;
 }
 
 a {
